@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    -webkit-text-stroke: 0.3px black;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0),5px 6px 5px rgb(107, 104, 104);
+}
+#si{
+    width: 300px;
+    margin: 20px 0;
+}
+#fm{
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px;
+    padding: 30px;
+}
+.f-group{
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+input{
+    width: inherit;
+    font-size: 16px;
+    height: 45px;
+    padding: 0 25px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px;
+}
+input:focus + label{
+    top: -10px;
+}
+input.hval + label{
+    top: -10px;
+}
+label{
+    font-size: 14px;
+    padding: 3px 8px;
+    background: white;
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    transition: all .2s ease-in;
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    background-color: lightgray;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 5px 10px;
+}
+table{
+    min-width: 600px;
+    margin-top: 50px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+table th{
+    padding: 8px 15px;
+    border: 1px solid;
+}
+table td{
+    padding: 5px 10px;
+    border: 1px solid;
+}
+table td button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px;
+}
+.e-btn{
+    background-color: teal;
+}
+.d-btn{
+    background-color: tomato;
+}
+.e-btn svg,
+.d-btn svg{
+    pointer-events: none;
+}
+
+

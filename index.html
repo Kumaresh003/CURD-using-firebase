@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>CURD Operation by JS with Firebase</h2>
+    <form action="#" id="fm">
+        <input type="hidden" id="si">
+        <div class="f-group">
+                <input type="text" id="name">
+                <label for="name">Name</label>
+        </div>
+        <div class="f-group">
+            <input type="number" id="age" min="0" max="100">
+            <label for="age">Age</label>
+        </div>
+        <div class="f-group">
+            <input type="text" id="city">
+            <label for="city">City</label>
+        </div>
+        <button type="submit" class="btn">Save</button>
+    </form>
+
+    <table>
+        <thead>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </thead>
+        <tbody id="tblbody">
+            
+        </tbody>
+    </table>
+
+
+
+
+
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
